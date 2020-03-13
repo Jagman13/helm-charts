@@ -68,9 +68,9 @@ node {
        createNamespace('api')
        helmInstallBackend()
       }
-
-     stage('Deploy Frontend'){
-      createNamespace('ui')
-      helmInstallFrontend()
-     }
+//
+//      stage('Deploy Frontend'){
+//       createNamespace('ui')
+//       helmInstallFrontend()
+//      }
  }
